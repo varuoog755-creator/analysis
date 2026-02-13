@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrendPulse | Autonomously Discover Your Next $10k/mo Niche</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #020617;
+            --card-bg: rgba(30, 41, 59, 0.5);
+            --primary: #4F46E5;
+            --secondary: #06B6D4;
+            --text: #F8FAFC;
+            --text-muted: #94A3B8;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-weight: 800;
+            font-size: 1.5rem;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-title {
+            font-size: 4rem;
+            font-weight: 800;
+            background: linear-gradient(90deg, #4F46E5, #06B6D4);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0px;
+        }
+
+        .btn-login {
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.05);
+            color: white;
+            padding: 8px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .btn-login:hover {
+            background: var(--primary);
+        }
+
+        .hero {
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 4.5rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+            background: linear-gradient(90deg, #FFFFFF, #94A3B8);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -0.02em;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            color: var(--text-muted);
+            max-width: 800px;
+            margin: 0 auto 40px;
+        }
+
+        .cta-btn {
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 16px 40px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.2rem;
+            box-shadow: 0 10px 15px -3px rgba(79, 70, 229, 0.4);
+            display: inline-block;
+            transition: 0.3s;
+        }
+
+        .cta-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 20px 25px -5px rgba(79, 70, 229, 0.4);
+        }
+
+        .features {
+            padding: 80px 0;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .feature-card {
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .feature-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-5px);
+        }
+
+        .feature-card h3 {
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+
+        .feature-card p {
+            color: var(--text-muted);
+        }
+
+        .pricing {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .pricing-card {
+            background: #1E293B;
+            padding: 50px 40px;
+            border-radius: 32px;
+            border: 1px solid #334155;
+            transition: 0.3s;
+        }
+
+        .pricing-card.popular {
+            border-color: var(--primary);
+            position: relative;
+            transform: scale(1.05);
+        }
+
+        .popular-tag {
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--primary);
+            color: white;
+            padding: 4px 16px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 800;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 3rem;
+            }
+
+            .features,
+            .pricing-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .pricing-card.popular {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">📈 TrendPulse</div>
+            <a href="http://72.61.235.182" class="btn-login">Open Dashboard</a>
+        </header>
+
+        <section class="hero">
+            <h1>Autonomously Discover Your Next $10k/mo Niche</h1>
+            <p>TrendPulse uses an autonomous fleet of AI agents to scan X.com, Hacker News, and Google Trends 24/7. We
+                find the signals while your competitors are still sleeping.</p>
+            <a href="http://72.61.235.182" class="cta-btn">Start Free Trial</a>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <h3>🤖 Autonomous Fleet</h3>
+                <p>3 specialized agents work 24/7 on your VPS to verify data moats and find hidden opportunities.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🐦 Real-Time X Pulse</h3>
+                <p>Deep sentiment analysis on X.com (Twitter) to find what people are complaining about in real-time.
+                </p>
+            </div>
+            <div class="feature-card">
+                <h3>🌐 Public Insights</h3>
+                <p>Access our community market reports and see what niches are exploding right now.</p>
+            </div>
+        </section>
+
+        <section class="pricing">
+            <h3>💎 Simple, Scalable Pricing</h3>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Hacker</h3>
+                    <h2>$0 <span style="font-size: 1rem; color: var(--text-muted);">/mo</span></h2>
+                    <p>Basic trend searches for starters.</p>
+                    <a href="http://72.61.235.182" style="color: var(--primary); font-weight: 700;">Get Started →</a>
+                </div>
+                <div class="pricing-card popular">
+                    <div class="popular-tag">MOST POPULAR</div>
+                    <h3>Founder</h3>
+                    <h2>$49 <span style="font-size: 1rem; color: var(--text-muted);">/mo</span></h2>
+                    <p>Unlimited searches + 24/7 Agent access.</p>
+                    <a href="http://72.61.235.182" class="cta-btn"
+                        style="padding: 12px 30px; font-size: 1rem; width: 100%; box-sizing: border-box;">Claim
+                        Offer</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <h2>$199 <span style="font-size: 1rem; color: var(--text-muted);">/mo</span></h2>
+                    <p>Full multi-agent fleet + API access.</p>
+                    <a href="http://72.61.235.182" style="color: var(--primary); font-weight: 700;">Contact Sales →</a>
+                </div>
+            </div>
+        </section>
+
+        <footer style="padding: 100px 0 50px; text-align: center; color: var(--text-muted);">
+            © 2026 TrendPulse AI. All rights reserved.
+        </footer>
+    </div>
+</body>
+
+</html>

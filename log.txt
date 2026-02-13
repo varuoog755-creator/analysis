@@ -1237,3 +1237,16 @@ For `use_container_width=True`, use `width='stretch'`. For `use_container_width=
 🐦 Searching X.com for: iphone
 ❌ X.com Error: Cannot choose from an empty sequence
 Testing instances:   0%|          | 0/8 [00:00<?, ?it/s]Testing instances:  12%|█▎        | 1/8 [00:00<00:06,  1.01it/s]Testing instances:  25%|██▌       | 2/8 [00:02<00:06,  1.15s/it]Testing instances:  38%|███▊      | 3/8 [00:03<00:05,  1.08s/it]Testing instances:  75%|███████▌  | 6/8 [00:03<00:01,  1.92it/s]Testing instances: 100%|██████████| 8/8 [00:04<00:00,  2.19it/s]Testing instances: 100%|██████████| 8/8 [00:04<00:00,  1.71it/s]
+🐦 Searching X.com for: iphone
+❌ X.com Error: Cannot choose from an empty sequence
+  Stopping...
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:80
+  Network URL: http://72.61.235.182:80
+  External URL: http://72.61.235.182:80
+
