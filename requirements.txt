@@ -1,0 +1,8 @@
+streamlit
+pandas
+pytrends
+plotly
+requests
+pillow
+ntscraper
+feedparser
