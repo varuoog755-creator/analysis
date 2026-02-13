@@ -1250,3 +1250,52 @@ Collecting usage statistics. To deactivate, set browser.gatherUsageStats to fals
   Network URL: http://72.61.235.182:80
   External URL: http://72.61.235.182:80
 
+/root/trendpulse/venv/lib/python3.13/site-packages/pytrends/request.py:260: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  df = df.fillna(False)
+2026-02-13 22:45:04.703 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 22:45:05.608 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+Testing instances:   0%|          | 0/8 [00:00<?, ?it/s]Testing instances:  12%|█▎        | 1/8 [00:02<00:15,  2.22s/it]/root/trendpulse/venv/lib/python3.13/site-packages/pytrends/request.py:260: FutureWarning:
+
+Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+
+2026-02-13 22:45:09.311 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+Testing instances:  25%|██▌       | 2/8 [00:03<00:10,  1.68s/it]2026-02-13 22:45:10.242 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+
+Testing instances:   0%|          | 0/8 [00:00<?, ?it/s][ATesting instances:  38%|███▊      | 3/8 [00:04<00:06,  1.35s/it]Testing instances:  50%|█████     | 4/8 [00:04<00:03,  1.10it/s]Testing instances:  62%|██████▎   | 5/8 [00:04<00:01,  1.52it/s]Testing instances:  75%|███████▌  | 6/8 [00:05<00:01,  1.54it/s]Testing instances:  88%|████████▊ | 7/8 [00:05<00:00,  2.11it/s]Testing instances: 100%|██████████| 8/8 [00:06<00:00,  1.42it/s]Testing instances: 100%|██████████| 8/8 [00:06<00:00,  1.17it/s]
+
+Testing instances:  12%|█▎        | 1/8 [00:02<00:20,  2.89s/it][A
+Testing instances:  25%|██▌       | 2/8 [00:04<00:11,  1.94s/it][A
+Testing instances:  38%|███▊      | 3/8 [00:05<00:07,  1.47s/it][A
+Testing instances:  75%|███████▌  | 6/8 [00:05<00:01,  1.52it/s][A
+Testing instances: 100%|██████████| 8/8 [00:06<00:00,  1.85it/s][ATesting instances: 100%|██████████| 8/8 [00:06<00:00,  1.23it/s]
+🐦 Searching X.com for: iphone
+❌ X.com Error: Cannot choose from an empty sequence
+🐦 Searching X.com for: iphone
+❌ X.com Error: Cannot choose from an empty sequence
+  Stopping...
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:80
+  Network URL: http://72.61.235.182:80
+  External URL: http://72.61.235.182:80
+
